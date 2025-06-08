@@ -1,59 +1,59 @@
 import React from 'react';
 
-const Dashboard = React.lazy( () => import( './views/dashboard/Dashboard' ) );
+const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'));
 
-const Home = React.lazy( () => import( './views/theme/HOME/Home' ) );
-const HomeList = React.lazy( () => import( './views/theme/HomeList/HomeList' ) );
-const HomeCard1 = React.lazy( () => import( './views/theme/HOME/HomeCard1' ) );
-const HomeCard1List = React.lazy( () => import( './views/theme/HomeList/HomeCard1List' ) );
-const HomeCard2 = React.lazy( () => import( './views/theme/HOME/HomeCard2' ) );
-const HomeCard2List = React.lazy( () => import( './views/theme/HomeList/HomeCard2List' ) );
-const HomeCard3 = React.lazy( () => import( './views/theme/HOME/HomeCard3' ) );
-const HomeCard3List = React.lazy( () => import( './views/theme/HomeList/HomeCard3List' ) );
-const HomeCard4 = React.lazy( () => import( './views/theme/HOME/HomeCard4' ) );
-const HomeCard4List = React.lazy( () => import( './views/theme/HomeList/HomeCard4List' ) );
+const Home = React.lazy(() => import('./views/theme/HOME/Home'));
+const HomeList = React.lazy(() => import('./views/theme/HomeList/HomeList'));
+const HomeCard1 = React.lazy(() => import('./views/theme/HOME/HomeCard1'));
+const HomeCard1List = React.lazy(() => import('./views/theme/HomeList/HomeCard1List'));
+const HomeCard2 = React.lazy(() => import('./views/theme/HOME/HomeCard2'));
+const HomeCard2List = React.lazy(() => import('./views/theme/HomeList/HomeCard2List'));
+const HomeCard3 = React.lazy(() => import('./views/theme/HOME/HomeCard3'));
+const HomeCard3List = React.lazy(() => import('./views/theme/HomeList/HomeCard3List'));
+const HomeCard4 = React.lazy(() => import('./views/theme/HOME/HomeCard4'));
+const HomeCard4List = React.lazy(() => import('./views/theme/HomeList/HomeCard4List'));
 
-const DonateMedicine = React.lazy( () => import( './views/theme/DonateMedicine/DonateMedicine' ) );
-const DonateMedicineList = React.lazy( () => import( './views/theme/DonateMedicineList/DonateMedicineList' ) );
-const DonateMedicineCard1 = React.lazy( () => import( './views/theme/DonateMedicine/DonateCard1' ) );
-const DonateMedicineCard1List = React.lazy( () => import( './views/theme/DonateMedicineList/DonateCard1List' ) );
+const DonateMedicine = React.lazy(() => import('./views/theme/DonateMedicine/DonateMedicine'));
+const DonateMedicineList = React.lazy(() => import('./views/theme/DonateMedicineList/DonateMedicineList'));
+const DonateMedicineCard1 = React.lazy(() => import('./views/theme/DonateMedicine/DonateCard1'));
+const DonateMedicineCard1List = React.lazy(() => import('./views/theme/DonateMedicineList/DonateCard1List'));
 
-const NGO = React.lazy( () => import( './views/theme/NGO/NGO' ) );
-const NGOList = React.lazy( () => import( './views/theme/NGOList/NGOList' ) );
-const NGOCard1 = React.lazy( () => import( './views/theme/NGO/NGOCard1' ) );
-const NGOCard1List = React.lazy( () => import( './views/theme/NGOList/NGOCard1List' ) );
-const NGOCard2 = React.lazy( () => import( './views/theme/NGO/NGOCard2' ) );
-const NGOCard2List = React.lazy( () => import( './views/theme/NGOList/NGOCard2List' ) );
-const Blog = React.lazy( () => import( './views/theme/Blog/Blog' ) );
-const BlogList = React.lazy( () => import( './views/theme/BlogList/BlogList' ) );
-const BlogCard = React.lazy( () => import( './views/theme/Blog/BlogCard' ) );
-const BlogCardList = React.lazy( () => import( './views/theme/BlogList/BlogCardList' ) );
-const About = React.lazy( () => import( './views/theme/About/About' ) );
-const AboutList = React.lazy( () => import( './views/theme/AboutList/AboutList' ) );
-const Mission = React.lazy( () => import( './views/theme/About/Mission' ) );
-const MissionList = React.lazy( () => import( './views/theme/AboutList/MissionList' ) );
+const NGO = React.lazy(() => import('./views/theme/NGO/NGO'));
+const NGOList = React.lazy(() => import('./views/theme/NGOList/NGOList'));
+const NGOCard1 = React.lazy(() => import('./views/theme/NGO/NGOCard1'));
+const NGOCard1List = React.lazy(() => import('./views/theme/NGOList/NGOCard1List'));
+const NGOCard2 = React.lazy(() => import('./views/theme/NGO/NGOCard2'));
+const NGOCard2List = React.lazy(() => import('./views/theme/NGOList/NGOCard2List'));
+const Blog = React.lazy(() => import('./views/theme/Blog/Blog'));
+const BlogList = React.lazy(() => import('./views/theme/BlogList/BlogList'));
+const BlogCard = React.lazy(() => import('./views/theme/Blog/BlogCard'));
+const BlogCardList = React.lazy(() => import('./views/theme/BlogList/BlogCardList'));
+const About = React.lazy(() => import('./views/theme/About/About'));
+const AboutList = React.lazy(() => import('./views/theme/AboutList/AboutList'));
+const Mission = React.lazy(() => import('./views/theme/About/Mission'));
+const MissionList = React.lazy(() => import('./views/theme/AboutList/MissionList'));
 // const AboutCard = React.lazy(() => import('./views/theme/About/AboutCard'))
 // const AboutCardList = React.lazy(() => import('./views/theme/AboutList/AboutCardList'))
-const Contact = React.lazy( () => import( './views/theme/Contact/Contact' ) );
-const ContactList = React.lazy( () => import( './views/theme/ContactList/ContactList' ) );
+const Contact = React.lazy(() => import('./views/theme/Contact/Contact'));
+const ContactList = React.lazy(() => import('./views/theme/ContactList/ContactList'));
 
 // edit page
-const EditHomeList = React.lazy( () => import( './views/EditPages/Home/EditHomeList' ) );
-const EditHomeCard1List = React.lazy( () => import( './views/EditPages/Home/EditHomeCard1List' ) );
-const EditHomeCard2List = React.lazy( () => import( './views/EditPages/Home/EditHomeCard2List' ) );
-const EditHomeCard3List = React.lazy( () => import( './views/EditPages/Home/EditHomeCard3List' ) );
-const EditHomeCard4List = React.lazy( () => import( './views/EditPages/Home/EditHomeCard4List' ) );
-const EditNgoList = React.lazy( () => import( './views/EditPages/Ngo/EditNgoList' ) );
-const EditNgoCard1List = React.lazy( () => import( './views/EditPages/Ngo/EditNgoCard1List' ) );
-const EditNgoCard2List = React.lazy( () => import( './views/EditPages/Ngo/EditNgoCard2List' ) );
-const EditBlogList = React.lazy( () => import( './views/EditPages/Blog/EditBlogList' ) );
-const EditBlogCardList = React.lazy( () => import( './views/EditPages/Blog/EditBlogCardList' ) );
-const EditAboutList = React.lazy( () => import( './views/EditPages/About/EditAboutList' ) );
-const EditMission = React.lazy( () => import( './views/EditPages/About/EditMission' ) );
-const EditContact = React.lazy( () => import( './views/EditPages/Contact/EditContact' ) );
+const EditHomeList = React.lazy(() => import('./views/EditPages/Home/EditHomeList'));
+const EditHomeCard1List = React.lazy(() => import('./views/EditPages/Home/EditHomeCard1List'));
+const EditHomeCard2List = React.lazy(() => import('./views/EditPages/Home/EditHomeCard2List'));
+const EditHomeCard3List = React.lazy(() => import('./views/EditPages/Home/EditHomeCard3List'));
+const EditHomeCard4List = React.lazy(() => import('./views/EditPages/Home/EditHomeCard4List'));
+const EditNgoList = React.lazy(() => import('./views/EditPages/Ngo/EditNgoList'));
+const EditNgoCard1List = React.lazy(() => import('./views/EditPages/Ngo/EditNgoCard1List'));
+const EditNgoCard2List = React.lazy(() => import('./views/EditPages/Ngo/EditNgoCard2List'));
+const EditBlogList = React.lazy(() => import('./views/EditPages/Blog/EditBlogList'));
+const EditBlogCardList = React.lazy(() => import('./views/EditPages/Blog/EditBlogCardList'));
+const EditAboutList = React.lazy(() => import('./views/EditPages/About/EditAboutList'));
+const EditMission = React.lazy(() => import('./views/EditPages/About/EditMission'));
+const EditContact = React.lazy(() => import('./views/EditPages/Contact/EditContact'));
 
-const EditDonateMedicineList = React.lazy( () => import( './views/EditPages/DonateMedicine/EditDonateMedicine' ) );
-const EditDonateCard1List = React.lazy( () => import( './views/EditPages/DonateMedicine/EditDonateCard1' ) );
+const EditDonateMedicineList = React.lazy(() => import('./views/EditPages/DonateMedicine/EditDonateMedicine'));
+const EditDonateCard1List = React.lazy(() => import('./views/EditPages/DonateMedicine/EditDonateCard1'));
 
 
 

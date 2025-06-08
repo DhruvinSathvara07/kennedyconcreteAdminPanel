@@ -14,7 +14,7 @@ const Home = () => {
     if (confirm('Are you sure you want to add this data?')) {
       try {
         const response = axios.post('http://localhost:5000/instant/', data)
-        console.log(response.data, 'Data successfully added')
+        console.log(response, 'Data successfully added')
         reset()
       } catch (error) {
         alert('Error occurred while adding data. Please try again.')
