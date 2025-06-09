@@ -1,15 +1,16 @@
-import {
-  cilBook,
-  cilContact,
-  cilFile,
-  cilLan,
-  cilListNumbered,
-  cilPencil,
-  cilPeople
-} from '@coreui/icons'
-import CIcon from '@coreui/icons-react'
-import { CNavItem, CNavTitle, CNavGroup } from '@coreui/react'
-import React from 'react'
+import
+  {
+    cilBook,
+    cilContact,
+    cilFile,
+    cilLan,
+    cilListNumbered,
+    cilPencil,
+    cilPeople
+  } from '@coreui/icons';
+import CIcon from '@coreui/icons-react';
+import { CNavItem, CNavTitle, CNavGroup } from '@coreui/react';
+import React from 'react';
 
 const _nav = [
   {
@@ -33,8 +34,13 @@ const _nav = [
   {
     component: CNavGroup,
     name: 'Home Page',
-    icon: <CIcon icon={cilPeople} customClassName="nav-icon" />,
+    icon: <CIcon icon={ cilPeople } customClassName="nav-icon" />,
     items: [
+      {
+        component: CNavItem,
+        name: 'All Users',
+        to: '/users/list',
+      },
       {
         component: CNavItem,
         name: 'All Users',
@@ -87,6 +93,6 @@ const _nav = [
   //   to: '/content/contacts',
   //   icon: <CIcon icon={cilContact} customClassName="nav-icon" />,
   // }
-]
+];
 
-export default _nav
+export default _nav;
