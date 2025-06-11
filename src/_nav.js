@@ -1,6 +1,5 @@
 import React from 'react';
-import
-{
+import {
   cilFile,
   cilPencil,
   cilPeople
@@ -11,17 +10,21 @@ import { CNavItem, CNavTitle, CNavGroup } from '@coreui/react';
 const _nav = [
   {
     component: CNavTitle,
+    name: 'Home Page'
+  },
+  {
+    component: CNavTitle,
     name: 'Service page'
   },
   {
     component: CNavGroup,
     name: 'Service Page',
-    icon: <CIcon icon={ cilPeople } customClassName="nav-icon" />,
+    icon: <CIcon icon={cilPeople} customClassName="nav-icon" />,
     items: [
       {
         component: CNavGroup,
         name: 'Concrete Delivery Page',
-        icon: <CIcon icon={ cilFile } customClassName="nav-icon" />,
+        icon: <CIcon icon={cilFile} customClassName="nav-icon" />,
         items: [
           {
             component: CNavItem,
@@ -38,124 +41,124 @@ const _nav = [
       {
         component: CNavGroup,
         name: 'Concrete Projects',
-        icon: <CIcon icon={ cilFile } customClassName="nav-icon" />,
+        icon: <CIcon icon={cilFile} customClassName="nav-icon" />,
         items: [
           {
             component: CNavGroup,
             name: 'Sidewalk',
-            icon: <CIcon icon={ cilPencil } customClassName="nav-icon" />,
+            icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
             items: [
               {
                 component: CNavItem,
                 name: 'Sidewalk Page',
-                to: '/projects/sidewalk/page'
+                to: '/theme/sidewalk/page'
               },
               {
                 component: CNavItem,
                 name: 'Sidewalk Page List',
-                to: '/projects/sidewalk/list'
+                to: '/theme/sidewalk/list'
               }
             ]
           },
           {
             component: CNavGroup,
             name: 'Driveway',
-            icon: <CIcon icon={ cilPencil } customClassName="nav-icon" />,
+            icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
             items: [
               {
                 component: CNavItem,
                 name: 'Driveway Page',
-                to: '/projects/driveway/page'
+                to: '/theme/driveway/page'
               },
               {
                 component: CNavItem,
                 name: 'Driveway Page List',
-                to: '/projects/driveway/list'
+                to: '/theme/driveway/list'
               }
             ]
           },
           {
             component: CNavGroup,
             name: 'Slab',
-            icon: <CIcon icon={ cilPencil } customClassName="nav-icon" />,
+            icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
             items: [
               {
                 component: CNavItem,
                 name: 'Slab Page',
-                to: '/projects/slab/page'
+                to: '/theme/slab/page'
               },
               {
                 component: CNavItem,
                 name: 'Slab Page List',
-                to: '/projects/slab/list'
+                to: '/theme/slab/list'
               }
             ]
           },
           {
             component: CNavGroup,
             name: 'Cell Fill',
-            icon: <CIcon icon={ cilPencil } customClassName="nav-icon" />,
+            icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
             items: [
               {
                 component: CNavItem,
                 name: 'Cell Fill Page',
-                to: '/projects/cellfill/page'
+                to: '/theme/cellfill/page'
               },
               {
                 component: CNavItem,
                 name: 'Cell Fill Page List',
-                to: '/projects/cellfill/list'
+                to: '/theme/cellfill/list'
               }
             ]
           },
           {
             component: CNavGroup,
             name: 'Commercial',
-            icon: <CIcon icon={ cilPencil } customClassName="nav-icon" />,
+            icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
             items: [
               {
                 component: CNavItem,
                 name: 'Commercial Page',
-                to: '/projects/commercial/page'
+                to: '/theme/commercial/page'
               },
               {
                 component: CNavItem,
                 name: 'Commercial Page List',
-                to: '/projects/commercial/list'
+                to: '/theme/commercial/list'
               }
             ]
           },
           {
             component: CNavGroup,
             name: 'Shotcrete',
-            icon: <CIcon icon={ cilPencil } customClassName="nav-icon" />,
+            icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
             items: [
               {
                 component: CNavItem,
                 name: 'Shotcrete Page',
-                to: '/projects/shotcrete/page'
+                to: '/theme/shotcrete/page'
               },
               {
                 component: CNavItem,
                 name: 'Shotcrete Page List',
-                to: '/projects/shotcrete/list'
+                to: '/theme/shotcrete/list'
               }
             ]
           },
           {
             component: CNavGroup,
             name: 'Decorative Concrete',
-            icon: <CIcon icon={ cilPencil } customClassName="nav-icon" />,
+            icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
             items: [
               {
                 component: CNavItem,
                 name: 'Decorative Concrete Page',
-                to: '/projects/decorative/page'
+                to: '/theme/decorative/page'
               },
               {
                 component: CNavItem,
                 name: 'Decorative Concrete List',
-                to: '/projects/decorative/list'
+                to: '/theme/decorative/list'
               }
             ]
           }
@@ -164,38 +167,42 @@ const _nav = [
       {
         component: CNavGroup,
         name: 'Building Materials',
-        icon: <CIcon icon={ cilFile } customClassName="nav-icon" />,
+        icon: <CIcon icon={cilFile} customClassName="nav-icon" />,
         items: [
           {
             component: CNavItem,
             name: 'Building Materials Page',
-            to: '/materials/page'
+            to: '/theme/materials/page'
           },
           {
             component: CNavItem,
             name: 'Building Materials List',
-            to: '/materials/list'
+            to: '/theme/materials/list'
           }
         ]
       },
       {
         component: CNavGroup,
         name: 'Preferred Contractors',
-        icon: <CIcon icon={ cilFile } customClassName="nav-icon" />,
+        icon: <CIcon icon={cilFile} customClassName="nav-icon" />,
         items: [
           {
             component: CNavItem,
             name: 'Preferred Contractors Page',
-            to: '/contractors/page'
+            to: '/theme/contractors/page'
           },
           {
             component: CNavItem,
             name: 'Preferred Contractors List',
-            to: '/contractors/list'
+            to: '/theme/contractors/list'
           }
         ]
       }
     ]
+  },
+  {
+    component: CNavTitle,
+    name: 'Contacts Page'
   }
 ];
 

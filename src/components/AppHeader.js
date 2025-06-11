@@ -58,26 +58,26 @@ const AppHeader = () => {
             </CNavLink>
           </CNavItem>
           <CNavItem>
-            <CNavLink href="#">Users</CNavLink>
+            {/* <CNavLink href="#">Users</CNavLink> */}
           </CNavItem>
           <CNavItem>
-            <CNavLink href="#">Settings</CNavLink>
+            {/* <CNavLink href="#">Settings</CNavLink> */}
           </CNavItem>
         </CHeaderNav>
         <CHeaderNav className="ms-auto">
           <CNavItem>
             <CNavLink href="#">
-              <CIcon icon={cilBell} size="lg" />
+              {/* <CIcon icon={cilBell} size="lg" /> */}
             </CNavLink>
           </CNavItem>
           <CNavItem>
             <CNavLink href="#">
-              <CIcon icon={cilList} size="lg" />
+              {/* <CIcon icon={cilList} size="lg" /> */}
             </CNavLink>
           </CNavItem>
           <CNavItem>
             <CNavLink href="#">
-              <CIcon icon={cilEnvelopeOpen} size="lg" />
+              {/* <CIcon icon={cilEnvelopeOpen} size="lg" /> */}
             </CNavLink>
           </CNavItem>
         </CHeaderNav>
@@ -128,13 +128,13 @@ const AppHeader = () => {
           <li className="nav-item py-1">
             <div className="vr h-100 mx-2 text-body text-opacity-75"></div>
           </li>
-          <AppHeaderDropdown />
+          {/* <AppHeaderDropdown /> */}
         </CHeaderNav>
       </CContainer>
       <CContainer className="px-4" fluid>
         <AppBreadcrumb />
       </CContainer>
-    </CHeader>
+    </CHeader >
   )
 }
 
