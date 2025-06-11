@@ -1,49 +1,49 @@
 import React from 'react';
 
-const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'));
+const Dashboard = React.lazy( () => import( './views/dashboard/Dashboard' ) );
 
-const Home = React.lazy(() => import('./views/theme/Home/Home'));
+const Home = React.lazy( () => import( './views/theme/Home/Home' ) );
 
 // ServicePage
-const ConcreteDeliveryAreas = React.lazy(() => import('./views/Pages/Service/ConcreteDeliveryAreas/ConcreteDeliveryAreas'));
-const ConcreteDeliveryAreasList = React.lazy(() => import('./views/Pages/Service/ConcreteDeliveryAreas/ConcreteDeliveryList'));
-const ConcreteDeliveryAreasEdit = React.lazy(() => import('./views/Pages/Service/ConcreteDeliveryAreas/ConcreteDeliveryEdit'));
+const ConcreteDeliveryAreas = React.lazy( () => import( './views/Pages/Service/ConcreteDeliveryAreas/ConcreteDeliveryAreas' ) );
+const ConcreteDeliveryAreasList = React.lazy( () => import( './views/Pages/Service/ConcreteDeliveryAreas/ConcreteDeliveryList' ) );
+const ConcreteDeliveryAreasEdit = React.lazy( () => import( './views/Pages/Service/ConcreteDeliveryAreas/ConcreteDeliveryEdit' ) );
 
-const Sidewalk = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Sidewalk/Sidewalk'));
-const SidewalkList = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Sidewalk/SidewalkList'));
-const SidewalkEdit = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Sidewalk/SidewalkEdit'));
+const Sidewalk = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Sidewalk/Sidewalk' ) );
+const SidewalkList = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Sidewalk/SidewalkList' ) );
+const SidewalkEdit = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Sidewalk/SidewalkEdit' ) );
 
-const Driveway = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Driveway/Driveway'));
-const DrivewayList = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Driveway/DrivewayList'));
-const DrivewayEdit = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Driveway/DrivewayEdit'));
+const Driveway = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Driveway/Driveway' ) );
+const DrivewayList = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Driveway/DrivewayList' ) );
+const DrivewayEdit = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Driveway/DrivewayEdit' ) );
 
-const Slab = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Slab/Slab'));
-const SlabList = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Slab/SlabList'));
-const SlabEdit = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Slab/SlabEdit'));
+const Slab = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Slab/Slab' ) );
+const SlabList = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Slab/SlabList' ) );
+const SlabEdit = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Slab/SlabEdit' ) );
 
-const Cellfill = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Cellfill/Cellfill'));
-const CellfillList = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Cellfill/CellfillList'));
-const CellfillEdit = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Cellfill/CellfillEdit'));
+const Cellfill = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Cellfill/Cellfill' ) );
+const CellfillList = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Cellfill/CellfillList' ) );
+const CellfillEdit = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Cellfill/CellfillEdit' ) );
 
-const Commercial = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Commercial/Commercial'));
-const CommercialList = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Commercial/CommercialList'));
-const CommercialEdit = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Commercial/CommercialEdit'));
+const Commercial = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Commercial/Commercial' ) );
+const CommercialList = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Commercial/CommercialList' ) );
+const CommercialEdit = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Commercial/CommercialEdit' ) );
 
-const Shotcreate = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Shotcreate/Shotcreate'));
-const ShotcreateList = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Shotcreate/ShotcreateList'));
-const ShotcreteEdit = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/Shotcreate/ShotcreateEdit'));
+const Shotcreate = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Shotcreate/Shotcreate' ) );
+const ShotcreateList = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Shotcreate/ShotcreateList' ) );
+const ShotcreteEdit = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/Shotcreate/ShotcreateEdit' ) );
 
-const DecorativeConcrete = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/DecorativeConcrete/DecorativeConcrete'));
-const DecorativeConcreteList = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/DecorativeConcrete/DecorativeConcreteList'));
-const DecorativeConcreteEdit = React.lazy(() => import('./views/Pages/Service/ConcreteProjects/DecorativeConcrete/DecorativeConcreteEdit'));
+const DecorativeConcrete = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/DecorativeConcrete/DecorativeConcrete' ) );
+const DecorativeConcreteList = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/DecorativeConcrete/DecorativeConcreteList' ) );
+const DecorativeConcreteEdit = React.lazy( () => import( './views/Pages/Service/ConcreteProjects/DecorativeConcrete/DecorativeConcreteEdit' ) );
 
-const Buildingmaterial = React.lazy(() => import('./views/Pages/Service/BuildingMatarials/BuildingMatarials'));
-const BuildingmaterialList = React.lazy(() => import('./views/Pages/Service/BuildingMatarials/BuildingMatarialsEdit'));
-const BuildingmaterialEdit = React.lazy(() => import('./views/Pages/Service/BuildingMatarials/BuildingMatarialsEdit'));
+const Buildingmaterial = React.lazy( () => import( './views/Pages/Service/BuildingMatarials/BuildingMatarials' ) );
+const BuildingmaterialList = React.lazy( () => import( './views/Pages/Service/BuildingMatarials/BuildingMatarialsEdit' ) );
+const BuildingmaterialEdit = React.lazy( () => import( './views/Pages/Service/BuildingMatarials/BuildingMatarialsEdit' ) );
 
-const PreferredContractor = React.lazy(() => import('./views/Pages/Service/PreferredContractor/PreferredContractor'));
-const PreferredContractorList = React.lazy(() => import('./views/Pages/Service/PreferredContractor/PreferredContractorList'));
-const PreferredContractorEdit = React.lazy(() => import('./views/Pages/Service/PreferredContractor/PreferredContractorEdit'));
+const PreferredContractor = React.lazy( () => import( './views/Pages/Service/PreferredContractor/PreferredContractor' ) );
+const PreferredContractorList = React.lazy( () => import( './views/Pages/Service/PreferredContractor/PreferredContractorList' ) );
+const PreferredContractorEdit = React.lazy( () => import( './views/Pages/Service/PreferredContractor/PreferredContractorEdit' ) );
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -89,7 +89,7 @@ const routes = [
 
   { path: "/theme/contractors/page", name: "Preferred Contractor Page", element: PreferredContractor },
   { path: "/theme/contractors/list", name: "Preferred Contractor Page List", element: PreferredContractorList },
-  { path: "/theme/contractors/list/:id", name: "Preferred Contractor Page Edit", element: PreferredContractorEdit },
+  { path: "/theme/contractors/edit/:id", name: "Preferred Contractor Page Edit", element: PreferredContractorEdit },
 
 
 ];
