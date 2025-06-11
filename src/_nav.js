@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  cilContact,
   cilFile,
   cilPencil,
   cilPeople
@@ -11,6 +12,12 @@ const _nav = [
   {
     component: CNavTitle,
     name: 'Home Page'
+  },
+  {
+    component: CNavItem,
+    name: 'Home',
+    to: '/theme/home',
+    icon: <CIcon icon={cilFile} customClassName="nav-icon" />,
   },
   {
     component: CNavTitle,
@@ -202,7 +209,24 @@ const _nav = [
   },
   {
     component: CNavTitle,
-    name: 'Contacts Page'
+    name: 'Contacts Page',
+  },
+  {
+    component: CNavGroup,
+    name: 'Contacts Page',
+    icon: <CIcon icon={cilContact} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Contacts Page',
+        to: '/theme/contacts/page'
+      },
+      {
+        component: CNavItem,
+        name: 'Contacts Page List',
+        to: '/theme/contacts/list'
+      }
+    ]
   }
 ];
 

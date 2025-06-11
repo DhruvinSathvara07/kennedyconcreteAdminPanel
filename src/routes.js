@@ -2,7 +2,7 @@ import React from 'react';
 
 const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'));
 
-const Home = React.lazy(() => import('./views/theme/HOME/Home'));
+const Home = React.lazy(() => import('./views/theme/Home/Home'));
 
 // ServicePage
 const ConcreteDeliveryAreas = React.lazy(() => import('./views/Pages/Service/ConcreteDeliveryAreas/ConcreteDeliveryAreas'));
